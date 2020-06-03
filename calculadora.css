@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+}
+.textview{
+    width: 203px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: silver;
+}
+.nome{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-570%);
+    color: white;
+    text-shadow: black 5px 5px 5px;
+}
+.bg{
+    background: linear-gradient(to right, red, blue);
+    height: 1000px;
+}
